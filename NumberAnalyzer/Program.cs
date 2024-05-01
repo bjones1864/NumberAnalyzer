@@ -26,39 +26,39 @@ do
             break;
         }
     } while (true);
-    
+
 
     if (input % 2 == 0)
     {
-        if(input > 60)
+        if (input > 60)
         {
-            Console.WriteLine("Even and greater than 60.");
+            Console.WriteLine($"{input} Is even and greater than 60.");
         }
-        else if(input >= 26)
+        else if (input >= 26)
         {
-            Console.WriteLine("Even and between 26 and 60 inclusive.");
+            Console.WriteLine($"{input} Is even and between 26 and 60 inclusive.");
         }
-        else if(input >= 2 && input <= 24)
+        else if (input >= 2 && input <= 24)
         {
-            Console.WriteLine("Even and less than 25.");
+            Console.WriteLine($" {input} Is even and less than 25.");
         }
     }
     else
     {
         if (input > 60)
         {
-            Console.WriteLine("Odd and greater than 60.");
+            Console.WriteLine($"{input} Is odd and greater than 60.");
         }
         else if (input < 60)
         {
-            Console.WriteLine("Odd and less than 60.");
+            Console.WriteLine($"{input} Is odd and less than 60.");
         }
     }
 
     Console.WriteLine($"{userName}, Would you like to analyze another number?  Enter y to analyze another number, enter anything else to end");
     string input2 = Console.ReadLine();
 
-    if(input2.ToLower() == "y")
+    if (input2.ToLower() == "y")
     {
         keepGoing = true;
     }

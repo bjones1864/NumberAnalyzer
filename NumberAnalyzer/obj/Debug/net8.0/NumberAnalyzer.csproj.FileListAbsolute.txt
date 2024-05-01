@@ -12,3 +12,4 @@ C:\Users\miwol\source\repos\NumberAnalyzer\NumberAnalyzer\obj\Debug\net8.0\refin
 C:\Users\miwol\source\repos\NumberAnalyzer\NumberAnalyzer\obj\Debug\net8.0\NumberAnalyzer.pdb
 C:\Users\miwol\source\repos\NumberAnalyzer\NumberAnalyzer\obj\Debug\net8.0\NumberAnalyzer.genruntimeconfig.cache
 C:\Users\miwol\source\repos\NumberAnalyzer\NumberAnalyzer\obj\Debug\net8.0\ref\NumberAnalyzer.dll
+C:\Users\miwol\source\repos\NumberAnalyzer\NumberAnalyzer\obj\Debug\net8.0\NumberAnalyzer.sourcelink.json
